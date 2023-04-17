@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(231, 213, 213);
 }
  
 main {
@@ -30,12 +30,23 @@ li a {
 }
 
 li a:hover {
-    background-color:antiquewhite;
-    text-decoration-color: black;
+    color: black;
+    text-decoration: underline;
 }
 
 .logo {
     display: block;
-    width: 100px;
+    width: 150px;
     margin: 20px;
+}
+
+.link {
+    width: 350px;
+    height: 480px;
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: "Lucida Console", "Counter New", monospace;
 }
